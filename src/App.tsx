@@ -1,13 +1,12 @@
 import React from 'react';
-// import SortComponent from './sortable';
-import EditorDemo from './wiki';
-
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <EditorDemo />
-    </div>
-  );
+import Router from './router'
+import TestRouter from './test-router';
+class App extends React.Component {
+  render(){
+    return (
+      <TestRouter />
+    )
+  }
 }
 
 export default App;
